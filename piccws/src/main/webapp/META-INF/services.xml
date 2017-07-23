@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file was auto-generated from WSDL -->
+<!-- by the Apache Axis2 version: 1.5  Built on : Apr 30, 2009 (06:07:24 EDT) -->
+<serviceGroup>
+    <service name="PICCService">
+        <messageReceivers>
+            <messageReceiver mep="http://www.w3.org/ns/wsdl/in-out" class="cn.com.epicc.app.service.PICCServiceMessageReceiverInOut"/>
+        </messageReceivers>
+        <parameter name="ServiceClass">cn.com.epicc.app.service.PICCServiceSkeleton</parameter>
+        <parameter name="useOriginalwsdl">true</parameter>
+        <parameter name="modifyUserWSDLPortAddress">true</parameter>
+        <operation name="sendIDInfo" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://service.app.epicc.com.cn">
+            <actionMapping>urn:sendIDInfo</actionMapping>
+            <outputActionMapping>urn:sendIDInfoResponse</outputActionMapping>
+        </operation>
+    </service>
+</serviceGroup>
